@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* h2{
+    color: cadetblue;
+} */
+
+
+/* #myfirstid{
+     color: brown;
+} */
+
+
+/* .myfirstclass{
+    color: cyan;
+} */
+
+
+.backImg{
+    width: 100%;
+    height: 100vh;
+    /* background-color: green; */
+    background-image: url('/img/49142.jpg');
+    background-repeat: repeat-y;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.backImg1{
+    width: 100%;
+    height: 100vh;
+    /* background-color: green; */
+    background-image: url('/img/49158.jpg');
+    background-repeat: repeat-y;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+#fontCss{
+    font-family: 'Montserrat', sans-serif;
+    font-variant: small-caps;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 100;
+}
+
+/* Text Css */
+#textCss{
+    font-family: 'Montserrat',sans-serif;
+    color: red;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    /* direction: ltr;
+    text-indent: 50px; */
+    text-align: center;
+    text-transform: uppercase;
+}
+/* Link css */
+/* unvisited link */
+a:link{
+    color: red;
+}
+/* visited link */
+
+a:visited{
+    color: green;
+}
+
+/* mouse over link */
+a:hover{
+    color: yellow;
+}
+
+/* selected link */
+a:active{
+    color: teal;
+}
+/* Border Css */
+.borderCss{
+    width: 500px;
+    height: 300px;
+    background-color: teal;
+    /*border-width: 5px;
+    border-color: black;
+    border-style: solid; */
+    border: 5px solid black;
+    border-radius: 25px;
+}
+
+/* list css */
+ul{
+    list-style-type: square;
+}
+
+ol{
+    list-style-type: lower-roman;
+}
+
+/* Box model css */
+.boxmodel{
+    width: 400px;
+    height: 200px;
+    background-color: blueviolet;
+}
+input{
+    /* padding-left: 20px;
+    padding-top: 10px; */
+    /* padding: 5px 5px 5px 5px; */
+    /* or */
+    padding: 5px;
+    margin: 50px;
+}
+
+/* Scrollbar-overflow */
+.para2{
+    width: 200px;
+    height: 100px;
+    border: 5px solid teal;
+    /* auto hidden scroll */
+    overflow: scroll;
+}
+
+/* positioning */
+.father{
+    width: 400px;
+    height: 300px;
+    background-color: tomato;
+    position: relative;
+}
+.child1{
+    width: 100px;
+    height: 60px;
+    background-color: green;
+    position: absolute;
+    /* left: 0; */
+    z-index: 3;
+}
+.child2{
+    width: 100px;
+    height: 60px;
+    background-color: yellow;
+    position: absolute;
+    /* right: 0; */
+    z-index: 1;
+}
+.child3{
+    width: 100px;
+    height: 60px;
+    background-color: pink;
+    position: absolute;
+    /* bottom: 0;
+    right: 0; */
+    z-index: 2;
+}
+.child4{
+    width: 100px;
+    height: 60px;
+    background-color: orangered;
+    position: absolute;
+    /* bottom: 0;
+    left: 0; */
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+.logo{
+    width: 30%;
+    line-height: 80px;
+    text-align: center;
+    background-color: orange;
+    float: left;
+}
+
+.menu{
+    width: 70%;
+    line-height: 80px;
+    background-color: red;
+    float: right;
+}
+ul{
+    list-style: none;
+    text-align: right;
+    /* direction: rtl; */
+}
+li{
+    /* inline , block */
+    display: inline-block;
+    /* border: 1px solid black; */
+    padding: 0 10px;
+}
